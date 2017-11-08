@@ -1,0 +1,287 @@
+/*Universal*/
+html{
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+                  /*Navagation Bar*/
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  height: 64px;
+  margin-bottom: auto 0;
+  width: 100%;
+  font-family: Helvetica;
+  align-items: center;
+}
+
+.navbar-container{
+  display:flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 24px;
+ font-size: 24px;
+}
+
+.navbar-left img{
+    display: flex;
+    height: 32px;
+    align-items: center;
+}
+.navbar-left{
+  display: flex;
+}
+.navbar-right{
+  display:flex;
+}
+
+.navbar-right span{
+  display: flex;
+  color: black;
+  padding: 16px;
+  padding-right: 24px;
+
+}
+
+.navbar-left span{
+  display: block;
+  color: gray;
+  font-size: 24px;
+  height: 64px;
+}
+
+.navbar-right span:hover {
+  color: rgb(255, 255, 255);
+  background-color: #324F99;
+  border: 2px solid;
+  border-radius: 10px;
+  transition: 150ms linear 0ms;
+}
+
+
+               /*Learn Something*/
+
+.main-learn{
+  display: flex;
+  background-color: lightgray;
+  height: auto;
+  width:100%;
+}
+
+.learn-text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  justify-content: center;
+  width: 40%;
+}
+
+.learn-text h1{
+  font-size: 3rem;
+}
+
+.learn-text h4{
+  font-size: 24px;
+  font-family: Helvetica;
+  font-style: oblique;
+  font-weight: lighter;
+}
+
+.learn-text h6{
+  color:white;
+  background-color: gray;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  width: 350px;
+  font-size: 24px;
+  border-radius: 10px;
+  font-weight: lighter;
+}
+
+.learn-text h6:hover{
+  background-color: #324F99;
+  transition: 100ms linear 0ms;
+}
+
+.learn-pic img{
+max-height: auto;
+max-width: 100%;
+display: block;
+margin-right: 24px;
+margin-left: 24px;
+margin-top: 32px;
+margin-bottom: 32px;
+}
+
+
+
+/*Information Section*/
+
+.information{
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 24px;
+}
+
+
+.left-block{
+  max-width: 60%;
+  padding-right: 24px;
+  color: gray;
+}
+
+.left-block h1{
+  color: #324F99;
+}
+
+.video{
+  /*border: 2px solid black;*/
+  /*display: block;*/
+
+}
+
+.blocks{
+  height: auto;
+  width:40%%;
+  border-left: 2px solid black;
+}
+
+.block1{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.block2{
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+  width: 100%;
+}
+
+.block-text{
+  width: 65%;
+}
+
+.block-image{
+  width: 65%;
+  padding-top: 16px;
+  padding-left: 16px;
+  height: auto;
+}
+
+.blocks h4{
+  margin: 8px;
+  font-family: Arial;
+  color: #324F99;
+  font-weight: lighter;
+  color: white;
+  background-color:#324F99;
+  padding: 5px;
+  width: 100px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.blocks h4:hover{
+background-color: gray;
+border-radius: 5px;
+transition: 100ms linear 0ms;
+
+}
+.blocks h2{
+ color: #324F99;
+}
+
+.blocks p{
+ color: black;
+ margin: 8px;
+}
+     /*Courses Section*/
+
+.main-courses{
+background-color: lightgray;
+padding: 32px 0;
+
+}
+
+.all-blocks{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding:32px 40px;
+}
+
+.title{
+  margin: 32px 0px;
+  text-align: center;
+  color:#324F99;
+}
+
+.course-blocks{
+  width: 31%;
+  background-color: white;
+  margin-bottom: 32px;
+}
+
+.course-block-img img{
+  width: 100%;
+  height: auto;
+
+}
+
+.course-text h1{
+  color: #324F99;
+}
+
+.course-text h2{
+  color: white;
+  width:100px;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+  background-color: #324F99;
+  border-radius: 10px;
+  font-weight: lighter;
+  margin-left: 20px;
+  padding:10px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.course-text h2:hover{
+  background-color: gray;
+  border-radius: 10px;
+  transition: 100ms linear 0ms;
+}
+
+.course-text p{
+  color: gray;
+}
+
+.course-text h2, h1, p{
+  padding-left:16px;
+  padding-top: 16px;
+}
+
+footer{
+  border-top: 2px solid gray;
+  padding-top: 16px;
+  padding-left: 24px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.footer-one{
+  color: gray;
+}
+
+.footer-two{
+  color:gray;
+  padding-right: 10px;
+  display:flex;
+  justify-content: flex-end;
+}
